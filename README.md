@@ -1,17 +1,17 @@
 ﻿💳 Credit Card Statement Parser
- A Python application that parses PDF credit card statements, extracts key data, and displays it in a clean web interface. Built with a scalable factory design pattern and validated by a suite of unit tests.
+A Python application that parses PDF credit card statements, extracts key data, and displays it in a clean web interface. Built with a scalable factory design pattern and validated by a suite of unit tests.
 
 
 🚀 Features
-   🖥️ Simple Web Interface: A clean and easy-to-use GUI built with Flask to upload statements.
+🖥️ Simple Web Interface: A clean and easy-to-use GUI built with Flask to upload statements.
 
-   🏦 Multi-Issuer Support: Currently supports 5 major providers: Chase, American Express, Bank of America, Citi, and Capital One.
+🏦 Multi-Issuer Support: Currently supports 5 major providers: Chase, American Express, Bank of America, Citi, and Capital One.
 
-   🔑 Key Data Extraction: Extracts 5 primary data points (configurable per parser).
+🔑 Key Data Extraction: Extracts 5 primary data points (configurable per parser).
 
-   🧩 Scalable Design: Uses a Factory design pattern (get_parser) to easily add support for new credit card issuers.
+🧩 Scalable Design: Uses a Factory design pattern (get_parser) to easily add support for new credit card issuers.
 
-   ✅ Unit Tested: The core parsing logic is validated by a suite of pytest unit tests to ensure reliability and accuracy.
+✅ Unit Tested: The core parsing logic is validated by a suite of pytest unit tests to ensure reliability and accuracy.
 
 🛠️ Setup and Installation
 Follow these steps to set up the project locally.
@@ -30,7 +30,6 @@ Create and activate a virtual environment:
 # On Windows
 python -m venv venv
 venv\Scripts\activate
-
 
 Install the required dependencies:
 
