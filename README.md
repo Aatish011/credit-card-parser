@@ -1,11 +1,6 @@
 ﻿💳 Credit Card Statement Parser
 A Python application that parses PDF credit card statements, extracts key data, and displays it in a clean web interface. Built with a scalable factory design pattern and validated by a suite of unit tests.
 
-✨ Live Demo
-A quick demonstration of the application in action. A user uploads a PDF statement, and the parsed data is displayed instantly.
-
-(To make this work: You'll need to create a short GIF of your application. Use a free tool like ScreenToGif to record your screen, save it as a GIF, upload it to your GitHub repository, and then change the image link above to point to it.)
-
 🚀 Features
 🖥️ Simple Web Interface: A clean and easy-to-use GUI built with Flask to upload statements.
 
@@ -34,10 +29,6 @@ Create and activate a virtual environment:
 # On Windows
 python -m venv venv
 venv\Scripts\activate
-
-# On macOS/Linux
-python3 -m venv venv
-source venv/bin/activate
 
 Install the required dependencies:
 
